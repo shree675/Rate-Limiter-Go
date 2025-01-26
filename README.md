@@ -5,14 +5,12 @@ Processes requests at a constant rate while also allowing a surge in requests to
 
 ## Usage
 
+Start the HTTP server at 8080:
 ```bash
 go run .
 ```
 
-This will start the HTTP server at 8080.
-
+Run a sample script to simulate concurrent requests to see the rate limiting in action:
 ```bash
 ./test.sh
 ```
-
-This is a sample script to simulate concurrent requests to see the rate limiting in action.
